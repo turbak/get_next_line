@@ -6,7 +6,7 @@
 /*   By: cauranus <cauranus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/04 13:52:28 by cauranus          #+#    #+#             */
-/*   Updated: 2019/09/17 18:34:16 by cauranus         ###   ########.fr       */
+/*   Updated: 2019/09/19 17:33:29 by cauranus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ int					ft_isupper(int c);
 int					ft_islower(int c);
 char				*ft_strrev(const char *s);
 char				*ft_strndup(const char *s1, int len);
-void				ft_swapnfree(void **var, void *new_val);
+void				ft_swapfree(void **ptr, void *ptr2);
 
 typedef struct		s_list
 {

@@ -63,7 +63,7 @@ FILES = ft_atoi.c\
 		ft_strrev.c\
 		ft_lstaddback.c\
 		ft_strndup.c\
-		ft_swapnfree.c
+		ft_swapfree.c
 
 OBJ			= $(patsubst %.c, %.o, $(FILES))
 FLAGS		=  -Wall -Werror -Wextra

@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swapnfree.c                                     :+:      :+:    :+:   */
+/*   ft_swapfree.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cauranus <cauranus@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/17 18:23:17 by cauranus          #+#    #+#             */
-/*   Updated: 2019/09/17 18:23:39 by cauranus         ###   ########.fr       */
+/*   Updated: 2019/09/19 17:33:22 by cauranus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_swapnfree(void **var, void *new_val)
+void	ft_swapfree(void **ptr, void *ptr2)
 {
 	void	*temp;
 
-	temp = new_val;
-	free(*var);
-	*var = temp;
+	temp = ptr2;
+	free(*ptr);
+	*ptr = temp;
 }
